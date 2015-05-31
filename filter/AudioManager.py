@@ -130,7 +130,6 @@ class AudioManager(object):
         # ファイルポインタをオーディオストリームの先頭に戻す
         self.wf.rewind()
 
-
     def __initialize(self):
         """オーディオデータの基本情報
         互換性のため、プロパティとして定義
