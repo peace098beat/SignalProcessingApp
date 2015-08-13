@@ -1,0 +1,396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"current",
+				"currentThread	function"
+			],
+			[
+				"BUF",
+				"BUFFER_SIZE	statement"
+			],
+			[
+				"getframe",
+				"getframerate	function"
+			],
+			[
+				"ampli",
+				"ampiltude"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"i",
+				"if	If Condition"
+			],
+			[
+				"def",
+				"defs	Method"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "dis",
+		"selected_items":
+		[
+			[
+				"dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"use",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"disab",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"user",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"pep",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"lint",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"got",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"GOT",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"GOTO",
+				"Anaconda: Goto object definition"
+			],
+			[
+				"snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"anaconda",
+				"Anaconda: Vagrant Status"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/gui",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/gui/template"
+	],
+	"file_history":
+	[
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/romantest1.py",
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/roman1.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/sci-fir.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/sci-iir.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/ex_scipy_iir.py",
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/ex_queue2.py",
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/ex_queue.py",
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/ex_threading.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/realtime-iir-filter.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/ex_tokenize.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/yu.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/iterator.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/generator.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/tokenize.py",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/IIR.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/doublebufferPlayer.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/AudioManager.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/sci-fil.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/submod/submod.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/FIR.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/submodules.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/submodules/submodules.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/LowPassFilter.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/gui/AudioManager.py",
+		"/Users/noharatomoyuki/Dropbox/DevelopFolda/python-web-access/access_weblio.py",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/python-coding",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/low/untitled.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/un.py",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/noharatomoyuki/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/__init__.py",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/filter/README.md",
+		"/Users/noharatomoyuki/Dropbox/10_GitRepository/SignalProcessingApp/LowPassFilter.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">>>",
+			"\"\"\"",
+			"generate_tokens",
+			"RealTimeIIRFilter",
+			"print",
+			"threading",
+			"reader",
+			"10",
+			"true",
+			"sampwidth",
+			"buf",
+			"frombuffer",
+			"In [",
+			"inx",
+			"data",
+			"struct",
+			"data",
+			"__set_data",
+			"44100",
+			"white",
+			"whitenoise",
+			"play",
+			"save",
+			"__printWaveInfo",
+			"filter",
+			"sinc",
+			"struct",
+			"createBPF",
+			"fft",
+			"self",
+			"frame",
+			"self.",
+			"sinc",
+			"axit",
+			"meaning",
+			"description",
+			"    ",
+			"line",
+			"forward end",
+			"append",
+			"hide",
+			"hide_snippets"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 169.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FiSig.filter.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

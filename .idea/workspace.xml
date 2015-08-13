@@ -4,11 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e53a3f9-d19e-41f1-89d0-8a5f9eafdcd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/filter/trash/realtime-iir-filter_0.1.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/AudioManager.py" afterPath="$PROJECT_DIR$/gui/AudioManager.py" />
-    </list>
+    <list default="true" id="6e53a3f9-d19e-41f1-89d0-8a5f9eafdcd7" name="Default" comment="" />
+    <list id="f266e815-91d9-4505-952e-79ca941f7728" name="New changelist" comment="" />
     <ignored path="SignalProcessingApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +21,628 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="SignalProcessingApp" />
+    <favorites_list name="SignalProcessingApp">
+      <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/Qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPen.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDial.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDrag.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFont.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIcon.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMenu.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QBrush.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QColor.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFrame.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QImage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLabel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMovie.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSound.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyle.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QBitmap.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCursor.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPixmap.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRegion.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSlider.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTabBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWizard.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMdiArea.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMenuBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPainter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPalette.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPicture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPolygon.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrinter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRawFont.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSpinBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QToolBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QToolBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QToolTip.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCheckBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QComboBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDateEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDirModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGlyphRun.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGradient.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGroupBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QKeyEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLineEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QListView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPolygonF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QShortcut.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSizeGrip.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSplitter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextLine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextList.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTimeEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTreeView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QUndoView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QVector2D.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QVector3D.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QVector4D.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QBoxLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QClipboard.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCompleter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDropEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QHelpEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QHideEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLCDNumber.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix2x2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix2x3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix2x4.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix3x2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix3x3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix3x4.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix4x2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix4x3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMatrix4x4.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMoveEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPictureIO.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QScrollBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QShowEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStatusBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTableView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTabWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextBlock.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextFrame.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextTable.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTransform.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QUndoGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QUndoStack.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QValidator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWhatsThis.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWorkspace.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCloseEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QColumnView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDockWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFileDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFocusEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFocusFrame.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFormLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGridLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QHBoxLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QHeaderView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QHoverEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIconEngine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QInputEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLayoutItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QListWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMainWindow.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMessageBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMimeSource.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMouseEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPaintEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPanGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QProxyModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPushButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QQuaternion.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRubberBand.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QScrollArea.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSizePolicy.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSpacerItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStaticText.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTapGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextCursor.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextLength.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextOption.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QToolButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTouchEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTreeWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QVBoxLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWheelEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWidgetItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWizardPage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QActionEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QActionGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QApplication.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QButtonGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QColorDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCommonStyle.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontMetrics.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QImageReader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QImageWriter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QInputDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QKeySequence.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPaintDevice.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPaintEngine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPainterPath.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPixmapCache.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrintDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrintEngine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrinterInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QProgressBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRadioButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QResizeEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOption.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTabletEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTableWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextBrowser.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QUndoCommand.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDateTimeEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QErrorMessage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontComboBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontDatabase.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFontMetricsF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGestureEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIconEngineV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QInputContext.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIntValidator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemDelegate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMdiSubWindow.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPinchGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPyTextObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSplashScreen.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStandardItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleFactory.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStylePainter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSwipeGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextDocument.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextFragment.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWidgetAction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDesktopWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDoubleSpinBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDragMoveEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFileOpenEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsScale.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsScene.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIconDragEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemSelection.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPlainTextEdit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QShortcutEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStackedLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStackedWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextTableCell.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractSlider.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCalendarWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDragEnterEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDragLeaveEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsAnchor.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsEffect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QImageIOHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QLinearGradient.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QListWidgetItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QProgressDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRadialGradient.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSessionManager.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSplitterHandle.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStatusTipEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTab.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSystemTrayIcon.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextBlockGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextCharFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextListFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTreeWidgetItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractSpinBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QConicalGradient.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDesktopServices.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDialogButtonBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDoubleValidator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFileSystemModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPageSetupDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QRegExpValidator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStringListModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleHintReturn.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTableWidgetItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextBlockFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextFrameFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextImageFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextTableFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractItemView.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QContextMenuEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QDataWidgetMapper.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QFileIconProvider.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsLineItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsPathItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsRectItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsRotation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsTextItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QInputMethodEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPaintEngineState.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionFrame.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabV3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextInlineObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QCommandLinkButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGestureRecognizer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsItemGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsTransform.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemEditorFactory.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMacPasteboardMime.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStandardItemModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionHeader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionSlider.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSyntaxHighlighter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTapAndHoldGesture.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextBlockUserData.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractProxyModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractScrollArea.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsBlurEffect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsGridLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsLayoutItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsPixmapItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QIdentityProxyModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemSelectionModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemSelectionRange.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QKeyEventTransition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPainterPathStroker.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrintPreviewDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPrintPreviewWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyledItemDelegate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionComplex.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionFrameV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionFrameV3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionSpinBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionToolBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionToolBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextDocumentWriter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractPrintDialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsEllipseItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsPolygonItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsProxyWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QInputContextFactory.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleHintReturnMask.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionComboBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionGroupBox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionMenuItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionSizeGrip.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTitleBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionViewItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextObjectInterface.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextTableCellFormat.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractItemDelegate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsAnchorLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsLinearLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMouseEventTransition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QSortFilterProxyModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionFocusRect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionToolBoxV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTextDocumentFragment.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsItemAnimation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsOpacityEffect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QItemEditorCreatorBase.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QMacCocoaViewContainer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionDockWidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionRubberBand.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabBarBase.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionToolButton.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionViewItemV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionViewItemV3.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionViewItemV4.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWhatsThisClickedEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsColorizeEffect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneHelpEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneMoveEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSimpleTextItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleHintReturnVariant.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionProgressBar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTreeWidgetItemIterator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QWindowStateChangeEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneHoverEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneMouseEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneWheelEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QPlainTextDocumentLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionDockWidgetV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionGraphicsItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabBarBaseV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsDropShadowEffect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneResizeEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionProgressBarV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractGraphicsShapeItem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabWidgetFrame.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QTableWidgetSelectionRange.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QAbstractTextDocumentLayout.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneDragDropEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QStyleOptionTabWidgetFrameV2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtGui/QGraphicsSceneContextMenuEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomAttr.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomNode.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomText.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomEntity.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlReader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomComment.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomElement.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlLocator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomDocument.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomNodeList.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomNotation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlAttributes.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlDTDHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlDeclHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlInputSource.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomCDATASection.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomDocumentType.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomNamedNodeMap.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlErrorHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlSimpleReader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomCharacterData.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomImplementation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlContentHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlDefaultHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlEntityResolver.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlLexicalHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlParseException.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomEntityReference.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomDocumentFragment.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QXmlNamespaceSupport.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXml/QDomProcessingInstruction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/Qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDir.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QUrl.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QChar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QFile.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QRect.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSize.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTime.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QUuid.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLineF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMutex.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPoint.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QRectF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSizeF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QState.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTimer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QBuffer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLocale.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPointF.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QRegExp.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QString.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QThread.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLibrary.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMargins.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QProcess.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSysInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QVariant.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QBitArray.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDateTime.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QFileInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QIODevice.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaEnum.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaType.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMimeData.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QResource.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QRunnable.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSettings.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTimeLine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QtMsgType.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/pyqtSignal.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QByteArray.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QEventLoop.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSemaphore.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QStringRef.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextCodec.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QBasicTimer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QChildEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDataStream.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QFinalState.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLatin1Char.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaMethod.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaObject.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QModelIndex.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QReadLocker.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QStringList.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextStream.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QThreadPool.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTimerEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTranslator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/pyqtProperty.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDirIterator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QEasingCurve.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLibraryInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMutexLocker.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextDecoder.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextEncoder.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QWriteLocker.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QElapsedTimer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QFSFileEngine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QHistoryState.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QLatin1String.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaProperty.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPluginLoader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSharedMemory.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSignalMapper.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QStateMachine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSystemLocale.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractState.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QMetaClassInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QReadWriteLock.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QStringMatcher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTemporaryFile.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QWaitCondition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/pyqtBoundSignal.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/pyqtWrapperType.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAnimationGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPauseAnimation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSocketNotifier.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QCoreApplication.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QEventTransition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QGenericArgument.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSystemSemaphore.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamReader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamWriter.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QByteArrayMatcher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSignalTransition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QVariantAnimation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractAnimation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractItemModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractListModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QCryptographicHash.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QFileSystemWatcher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPropertyAnimation.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractFileEngine.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractTableModel.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractTransition.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QProcessEnvironment.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextBoundaryFinder.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamAttribute.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamAttributes.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QObjectCleanupHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QPersistentModelIndex.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QGenericReturnArgument.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QTextStreamManipulator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QParallelAnimationGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractEventDispatcher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamEntityResolver.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QSequentialAnimationGroup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractFileEngineHandler.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QAbstractFileEngineIterator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QDynamicPropertyChangeEvent.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamEntityDeclaration.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamNotationDeclaration.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtCore/QXmlStreamNamespaceDeclaration.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtSql.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtSvg.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtHelp.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QFtp.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSsl.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttp.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslKey.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QUrlInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHostInfo.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttpPart.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslError.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslCipher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslSocket.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QTcpServer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QTcpSocket.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QUdpSocket.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttpHeader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHostAddress.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QLocalServer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QLocalSocket.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkProxy.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkReply.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QAuthenticator.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttpMultiPart.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkCookie.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QAbstractSocket.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkRequest.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkSession.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslCertificate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkCookieJar.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkDiskCache.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkInterface.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QSslConfiguration.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttpRequestHeader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkProxyQuery.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QHttpResponseHeader.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkAddressEntry.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkProxyFactory.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QAbstractNetworkCache.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkAccessManager.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkCacheMetaData.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkConfiguration.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtNetwork/QNetworkConfigurationManager.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtTest.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtOpenGL.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtScript.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtWebKit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtDesigner.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtMultimedia.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtDeclarative.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtScriptTools.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-2125986627/PyQt4/QtXmlPatterns.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5753564">
+    <splitter split-orientation="horizontal" split-proportion="0.62913907">
       <split-first>
         <leaf>
-          <file leaf-file-name="realtime-iir-filter.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/filter/realtime-iir-filter.py">
+          <file leaf-file-name="gui_SignalLoadWidget.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.275862">
-                  <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+                <state vertical-scroll-proportion="-0.17132217">
+                  <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
                   <folding>
-                    <element signature="e#383#394#0" expanded="true" />
+                    <element signature="e#124#134#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gui_FileLoadWidget.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gui_MasterOfMainWindow.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="154" column="60" selection-start-line="154" selection-start-column="60" selection-end-line="154" selection-end-column="60" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="QKeySequence.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/1582797434/PySide/QtGui/QKeySequence.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -46,14 +651,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="sci-iir.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/filter/sci-iir.py">
+          <file leaf-file-name="gwt.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/gwt.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2413793">
-                  <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#47#65#0" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.21973929">
+                  <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -62,8 +665,19 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,7 +685,26 @@
         <option value="$PROJECT_DIR$/filter/sci-fil.py" />
         <option value="$PROJECT_DIR$/filter/sci-iir.py" />
         <option value="$PROJECT_DIR$/filter/IIR.py" />
+        <option value="$PROJECT_DIR$/filter/ex_scipy_iir.py" />
         <option value="$PROJECT_DIR$/filter/realtime-iir-filter.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch" />
+        <option value="$PROJECT_DIR$/gui/MainApplication.py" />
+        <option value="$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer/index.html" />
+        <option value="$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer/js/main.js" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/plotFigure.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/analyser.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/spectrumAnalyser1.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/old/spectrumAnalyser1.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/more_codecs.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/audiolab.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/STFT.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/sample/stft_sample.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/imshow_sox.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/pylab.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/FiSig/gwt.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py" />
+        <option value="$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py" />
       </list>
     </option>
   </component>
@@ -79,11 +712,28 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1314" />
-    <option name="height" value="746" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -107,6 +757,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,6 +786,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -149,62 +818,180 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
+              <option name="myItemId" value="AudioAnalyser01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="audio" />
+              <option name="myItemId" value="AudioAnalyser01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FiSig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SignalProcessingApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AudioAnalyser01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FiSig" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/filter/trash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="129" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="924" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="129" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="924" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="com.intellij.ide.scratch.NewScratchFileAction" value="Python" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="SignalProcessingApp" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="SignalProcessingApp" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/filter/trash" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\FiSig" />
+      <recent name="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\audio" />
+      <recent name="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\old" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.realtime-iir-filter">
-    <configuration default="false" name="sci-iir" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.gui_SignalLoadWidget">
+    <configuration default="false" name="STFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01/FiSig" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SignalProcessingApp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter/sci-iir.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\FiSig\stft.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="IIR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="imshow_sox" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01/FiSig" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="SignalProcessingApp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter/IIR.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/FiSig/imshow_sox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gui_SignalLoadWidget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gwt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01/FiSig" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/FiSig/gwt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gui_MasterOfMainWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -224,6 +1011,40 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter/realtime-iir-filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -331,6 +1152,57 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="stft_sample" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01/FiSig/sample" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/FiSig/sample/stft_sample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="analyser" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\old\analyser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainApplication" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/MainApplication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="realtime-iir-filter" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,73 +1220,161 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.realtime-iir-filter" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sci-iir" />
-      <item index="2" class="java.lang.String" itemvalue="Python.IIR" />
+    <configuration default="false" name="sci-iir" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/filter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/filter/sci-iir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spectrumAnalyser1" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="C:\Users\fifi\Dropbox\10_GitRepository\SignalProcessingApp\AudioAnalyser01\old\spectrumAnalyser1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gui_FileLoadWidget" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AudioAnalyser01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="SignalProcessingApp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="12">
+      <item index="0" class="java.lang.String" itemvalue="Python.stft_sample" />
+      <item index="1" class="java.lang.String" itemvalue="Python.analyser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MainApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Python.realtime-iir-filter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sci-iir" />
+      <item index="5" class="java.lang.String" itemvalue="Python.spectrumAnalyser1" />
+      <item index="6" class="java.lang.String" itemvalue="Python.gui_FileLoadWidget" />
+      <item index="7" class="java.lang.String" itemvalue="Python.STFT" />
+      <item index="8" class="java.lang.String" itemvalue="Python.imshow_sox" />
+      <item index="9" class="java.lang.String" itemvalue="Python.gui_SignalLoadWidget" />
+      <item index="10" class="java.lang.String" itemvalue="Python.gwt" />
+      <item index="11" class="java.lang.String" itemvalue="Python.gui_MasterOfMainWindow" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.IIR" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sci-iir" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.gui_SignalLoadWidget" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gui_MasterOfMainWindow" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gwt" />
+        <item index="3" class="java.lang.String" itemvalue="Python.imshow_sox" />
+        <item index="4" class="java.lang.String" itemvalue="Python.STFT" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\fifi\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6e53a3f9-d19e-41f1-89d0-8a5f9eafdcd7" name="Default" comment="" />
+      <changelist id="f266e815-91d9-4505-952e-79ca941f7728" name="New changelist" comment="" />
       <created>1433058886466</created>
       <option name="number" value="Default" />
       <updated>1433058886466</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add reset(), start().&#10;Add zero fill timer view.&#10;">
+      <created>1433512328830</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1433512328830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Global Variable">
+      <created>1433513576823</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1433513576824</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1314" height="746" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2405259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29204893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21236959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.048543688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.080906145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20711975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11585366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942085" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942085" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11585366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -428,62 +1388,67 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add reset(), start().&#10;Add zero fill timer view.&#10;" />
+    <MESSAGE value="Add Global Variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Global Variable" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AudioAnalyser01/FiSig/imshow_sox.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filter/realtime-iir-filter.py">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
           <folding>
-            <element signature="e#383#394#0" expanded="true" />
+            <element signature="e#124#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/IIR.py">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/FiSig.filter.sublime-workspace">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/trash/realtime-iir-filter_0.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/AudioManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5207668">
-          <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
-          <folding>
-            <element signature="e#643#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter/FIR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1433121">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="154" column="60" selection-start-line="154" selection-start-column="60" selection-end-line="154" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python2.7/site-packages/scipy/signal/__init__.py">
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/1582797434/PySide/QtGui/QKeySequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/gwt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -491,40 +1456,328 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/sci-fir.py">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6896552">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
-            <element signature="e#15#28#0" expanded="true" />
+            <element signature="e#124#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/IIR.py">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/audiolab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7241379">
-          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/stft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#124#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/wave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/audiolab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="48" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9583333">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HarryNoodleTimer/WWW/HurryNoodleTImer/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07325383">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DevelopFolda/20150730_PySide_Coocbook/20150810_AudioAnalyser_Pyside_Matplot/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="304" column="13" selection-start-line="237" selection-start-column="0" selection-end-line="304" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DevelopFolda/20150730_PySide_Coocbook/20150730_SimpleFileLoadDlg/FileLoadDlg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/_trash/plotFigure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/_trash/spectrumAnalyser1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/_trash/analyser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49377593">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.495535">
+          <caret line="957" column="0" selection-start-line="957" selection-start-column="0" selection-end-line="957" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DevelopFolda/20150610_MicrosoftTranslator/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/wave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/gui/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/gui/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9228007">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/scipy/io/wavfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1943794">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old/filter/FIR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="146" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/imshow_sox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/sci-iir.py">
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/sample/stft_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2413793">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state vertical-scroll-proportion="2.1100702">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/stft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/spyderlib/widgets/dicteditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321976">
+          <caret line="780" column="8" selection-start-line="780" selection-start-column="8" selection-end-line="780" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4906304">
+          <caret line="4525" column="8" selection-start-line="4525" selection-start-column="8" selection-end-line="4525" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.71670705">
+          <caret line="577" column="8" selection-start-line="577" selection-start-column="8" selection-end-line="577" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/audiolab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17675544">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="98" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/FiSig/gwt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21973929">
+          <caret line="154" column="25" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/gridspec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="295" column="26" selection-start-line="295" selection-start-column="14" selection-end-line="295" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/sklearn/tests/test_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/mpl_toolkits/axisartist/angle_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="183" column="8" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/colorbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33333334">
+          <caret line="865" column="8" selection-start-line="865" selection-start-column="8" selection-end-line="865" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8148148">
+          <caret line="1505" column="26" selection-start-line="1505" selection-start-column="26" selection-end-line="1505" selection-end-column="26" />
           <folding>
-            <element signature="e#47#65#0" expanded="true" />
+            <element signature="e#55141#55779#1" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter/realtime-iir-filter.py">
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.275862">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state vertical-scroll-proportion="-0.11111111">
+          <caret line="1269" column="4" selection-start-line="1269" selection-start-column="4" selection-end-line="1269" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33333334">
+          <caret line="225" column="8" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda/Lib/site-packages/mpl_toolkits/mplot3d/axes3d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="1347" column="48" selection-start-line="1347" selection-start-column="48" selection-end-line="1347" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/1582797434/PySide/QtGui/QKeySequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_MasterOfMainWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="154" column="60" selection-start-line="154" selection-start-column="60" selection-end-line="154" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_FileLoadWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AudioAnalyser01/gui_SignalLoadWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.17132217">
+          <caret line="155" column="21" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
           <folding>
-            <element signature="e#383#394#0" expanded="true" />
+            <element signature="e#124#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
