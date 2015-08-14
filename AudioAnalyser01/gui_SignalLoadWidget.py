@@ -31,30 +31,9 @@ from FiSig.audiolab import wavread
 from FiSig.stft import stft
 # from FiSig.imshow_sox import imshow_sox
 
-def imshow_sox(spectrogram, rm_low = 0.1, axes=None):
-    from scipy import hanning, hamming, histogram, log10
+from FiSig.axisLimitSelector import AxisLimitSelector3D, AxisLimitSelector2D, AxisLimitSelector
 
-    # max_value = spectrogram.max()
-    ### amp to dbFS
-    # db_spec = log10(spectrogram / float(max_value)) * 20
-    db_spec = log10(spectrogram) * 20
-    # ### カラーマップの上限と下限を計算
-    # hist, bin_edges = histogram(db_spec.flatten(), bins = 1000, normed = True)
-    # hist /= float(hist.sum())
-    # pl.hist(hist)
-    # pl.show()
-    # S = 0
-    # ii = 0
-    # while S < rm_low:
-    #     S += hist[ii]
-    #     ii += 1
-    # vmin = bin_edges[ii]
-    # vmax = db_spec.max()
-    # if vmin>vmax:
-    #     vmin, vmax = vmax, vmin
 
-    # axes.imshow(db_spec, origin = "lower", aspect = "auto", cmap = "hot", vmax = vmax, vmin = vmin)
-    axes.imshow(db_spec, origin = "lower", aspect = "auto", cmap = "hot")
 
 ##########################################################
 # Example
@@ -106,9 +85,10 @@ class ExampleMainWindow(MasterOfMainWindow):
         # 波形描画グラフを設置
         ###################################
         # Figure 1
-        self.fig1 = plt.Figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
-        # self.fig1.patch.set_alpha(0.)
-        self.ax1 = self.fig1.add_subplot(1,1,1)
+        self.fig1 = plt.figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
+        self.ax1 = plt.subplot2grid( (1,10), (0,0), colspan=9)
+        self.ax1_sub = plt.subplot2grid( (1,10), (0,9))
+
         self.canvas1 = FigureCanvas(self.fig1)
         self.mainlayout.addWidget(self.canvas1)
 
@@ -116,19 +96,29 @@ class ExampleMainWindow(MasterOfMainWindow):
         # STFTグラフを設置
         ###################################
         # Figure 2
-        self.fig2 = plt.Figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
-        self.ax2 = self.fig2.add_subplot(1,1,1)
+        self.fig2 = plt.figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
+        self.ax2 = plt.subplot2grid( (1,10), (0,0), colspan=9)
+        self.ax2_sub = plt.subplot2grid( (1,10), (0,9))
+
         self.canvas2 = FigureCanvas(self.fig2)
         self.mainlayout.addWidget(self.canvas2)
 
         ###################################
         # GWTグラフを設置
         ###################################
-        # Figure 2
-        self.fig3 = plt.Figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
-        self.ax3 = self.fig3.add_subplot(1,1,1)
-        self.canvas3 = FigureCanvas(self.fig3)
-        self.mainlayout.addWidget(self.canvas3)
+        # Figure 3
+        # self.fig3 = plt.figure(figsize=(1,1), dpi=72, facecolor=[1,1,1], edgecolor=[0,0,0], linewidth=1.0, frameon=False,  tight_layout=False)
+        # self.ax3 = plt.subplot2grid( (1,10), (0,0), colspan=9)
+        # self.ax3_sub = plt.subplot2grid( (1,10), (0,9))
+        # self.canvas3 = FigureCanvas(self.fig3)
+        # self.mainlayout.addWidget(self.canvas3)
+
+        #---
+        self.selector4 = AxisLimitSelector()
+        self.fig4, self.ax4, self.ax4_sub = self.selector4.getHandle()
+        self.canvas4 = FigureCanvas(self.fig4)
+        self.mainlayout.addWidget(self.canvas4)
+
 
 
     ###############################################
@@ -151,13 +141,14 @@ class ExampleMainWindow(MasterOfMainWindow):
         [data, fs]=wavread(self.wavfilepath)
         data = data[0:fs-1]
         N = len(data)
-        trange = np.linspace(0,)
 
         fontsize = 10
         # *****************************
         # オーディオファイルのプロット
         # *****************************
         self.ax1.plot(data)
+        ls1 = AxisLimitSelector2D(data, self.fig1, self.ax1, self.ax1_sub)
+
         # self.fig1.tight_layout()
         self.ax1.set_xlabel('Time [s]', fontsize=fontsize)
         self.ax1.set_ylabel('Amplitude [-]]', fontsize=fontsize)
@@ -169,11 +160,14 @@ class ExampleMainWindow(MasterOfMainWindow):
         # STFT
         # *****************************
         from scipy import hanning
-        fftLen = 1024
+        fftLen = 512
         win = hanning(fftLen)
         step = fftLen / 2
         spectrogram = abs(stft(data, win, step)[:, : fftLen / 2 + 1]).T
-        imshow_sox(spectrogram, rm_low=0.1, axes=self.ax2)
+        spectrogram = 20*np.log10(spectrogram)
+        self.ax2.imshow(spectrogram, origin = "lower", aspect = "auto", cmap = "jet")
+        ls2 = AxisLimitSelector3D(spectrogram,self.fig2, self.ax2, self.ax2_sub)
+
         # self.fig2.tight_layout()
         self.ax2.set_xlabel('Time [s]', fontsize=fontsize)
         self.ax2.set_ylabel('Frequency [Hz]', fontsize=fontsize)
@@ -188,18 +182,24 @@ class ExampleMainWindow(MasterOfMainWindow):
         d_gwt, trange, frange = gwt(data, Fs=fs)
         d_gwt = 20*np.log10(np.abs(d_gwt))
         extent = trange[0], trange[-1], frange[0], frange[-1]
-        im = self.ax3.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent)
-        self.ax3.axis('auto')
-        self.ax3.set_title('Scarogram (GWT)', fontsize=fontsize)
-        self.ax3.title.set_visible(False)
-        self.ax3.set_xlabel('Time [s]', fontsize=fontsize)
-        self.ax3.set_ylabel('Frequency [Hz]', fontsize=fontsize)
-        self.ax3.locator_params(nbins=10, axis='x', tight=None)
-        self.ax3.locator_params(nbins=3, axis='y', tight=None)
-        # self.fig3.tight_layout()
-        # self.fig3.colorbar(im)
-        self.canvas3.draw()
+        # im = self.ax3.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent)
+        # ls3 = AxisLimitSelector3D(d_gwt,self.fig3, self.ax3, self.ax3_sub)
 
+        # self.ax3.axis('auto')
+        # self.ax3.set_title('Scarogram (GWT)', fontsize=fontsize)
+        # self.ax3.title.set_visible(False)
+        # self.ax3.set_xlabel('Time [s]', fontsize=fontsize)
+        # self.ax3.set_ylabel('Frequency [Hz]', fontsize=fontsize)
+        # self.ax3.locator_params(nbins=10, axis='x', tight=None)
+        # self.ax3.locator_params(nbins=3, axis='y', tight=None)
+        # # self.fig3.tight_layout()
+        # # self.fig3.colorbar(im)
+        # self.canvas3.draw()
+
+        ##################
+        im = self.ax4.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent, aspect = "auto")
+        self.selector4.setData(d_gwt,"3D")
+        self.canvas4.draw()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
