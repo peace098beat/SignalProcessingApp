@@ -125,20 +125,27 @@ class AudioManager(object):
             output=True,
             stream_callback=callback)
 
-        stream.start_stream()
-        while stream.is_active():
-            import time
-            time.sleep(0.1)
-
-        stream.stop_stream()
-        stream.close()
-        p.terminate()
+        # よくわからないが、非同期にするためにコメントアウト
+        # 改善の余地あり
+        # stream.start_stream()
+        # while stream.is_active():
+        #     import time
+        #     time.sleep(0.1)
+        #
+        # stream.stop_stream()
+        # stream.close()
+        # p.terminate()
         print '== Audio:play ..end =='
 
         # ファイルポインタをオーディオストリームの先頭に戻す
         self.wf.rewind()
 
-    def getData(self):
+    def getFs(self):
+        return self.fs
+
+    def getData(self, mode='default'):
+        if mode is "default":
+            return self.data
         try:
             return self.data_raw, self.data, self.data_n
         except AttributeError:

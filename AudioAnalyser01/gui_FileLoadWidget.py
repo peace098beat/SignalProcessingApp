@@ -12,6 +12,7 @@ FileLoadDlg
 import sys
 from PySide import QtGui, QtCore
 
+
 class SimpleFileLoader(QtGui.QWidget):
 
     # ファイルがロードされたときのシグナル
@@ -34,19 +35,14 @@ class SimpleFileLoader(QtGui.QWidget):
         self.fname_label = QtGui.QLabel('no file__________________________________________________________', self)
         self.fname_label.move(100, 10)
 
-        self.play_btn = QtGui.QPushButton('Play', self)
-        self.play_btn.move(20, 40)
-
         # self.setGeometry(0, 0, 1, 80)
-        # self.setWindowTitle('SimpleFileLoader')
-        # self.show()
+        self.setWindowTitle('SimpleFileLoader')
 
     ##############################################
     # シグナル・スロットの作成
     ##############################################
     def setupEvent(self):
         self.load_btn.clicked.connect(self.openFileDialog)
-        pass
 
     ##############################################
     # スロット
@@ -60,6 +56,7 @@ class SimpleFileLoader(QtGui.QWidget):
 
         # 呼び出したファイルの格納
         self.cahangeFilePath(fname)
+
     ##############################################
     # サブ関数
     ##############################################
@@ -85,8 +82,6 @@ class SimpleFileLoader(QtGui.QWidget):
         # 呼び出したファイルを格納
         file = files[0]
         self.cahangeFilePath(fname)
-
-
 
     ##############################################
     # ファイルが呼び出された後の処理
@@ -115,16 +110,12 @@ class SimpleFileLoader(QtGui.QWidget):
 
         # パス名 path の正規化された絶対パスを返します。
         self.abspath = os.path.abspath(filepath)
-
         # パス名 path の末尾のファイル名部分を返します。
         self.basename = os.path.basename(filepath)
-
         # パス名 path のディレクトリ名を返します。
         self.dirname = os.path.dirname(filepath)
-
         # pathが実在するパスか、オープンしているファイル記述子を参照している場合 True を返します。
         self.exists = os.path.exists(filepath)
-
         # 拡張子無しファイル名と、拡張子を返す
         self.name, self.ext = os.path.splitext(self.basename)
 
@@ -141,14 +132,35 @@ class SimpleFileLoader(QtGui.QWidget):
     def minimumSizeHint(self):
         return QtCore.QSize(50, 50)
 
+from FiSig.AudioManager import AudioManager
 
+class AudioFileLoader(SimpleFileLoader):
+    """ SimpeFileLoaderにオーディオ再生機能を付けた(暫定)
+    """
+
+    def __init__(self):
+        SimpleFileLoader.__init__(self)
+
+        self.play_btn = QtGui.QPushButton('Play', self)
+        self.play_btn.move(20, 40)
+
+        ##############################################
+        # シグナル・スロットの作成
+        ##############################################
+        self.play_btn.clicked.connect(self.playAudio)
+
+    @QtCore.Slot()
+    def playAudio(self):
+        AudioManager(self.abspath).play()
+        print "paly audio"
+        pass
 
 ##########################################################
 # Example
 ##########################################################
 def main():
     app = QtGui.QApplication(sys.argv)
-    w = SimpleFileLoader()
+    w = AudioFileLoader()
     w.show()
     sys.exit(app.exec_())
 

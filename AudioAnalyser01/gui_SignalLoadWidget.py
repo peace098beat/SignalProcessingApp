@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # ユーザーファンクション
-from gui_FileLoadWidget import SimpleFileLoader
+from gui_FileLoadWidget import SimpleFileLoader, AudioFileLoader
 from gui_MasterOfMainWindow import MasterOfMainWindow
 from FiSig.audiolab import wavread
 from FiSig.stft import stft
@@ -33,10 +33,13 @@ from FiSig.stft import stft
 from FiSig.axisLimitSelector import AxisLimitSelector3D, AxisLimitSelector2D, AxisLimitSelector
 
 
+
 ##########################################################
 # Example
 ##########################################################
 class ExampleMainWindow(MasterOfMainWindow):
+    fileloaded = Signal()
+
     def __init__(self):
         MasterOfMainWindow.__init__(self)
         self.setWindowTitle(__appname__)
@@ -69,7 +72,7 @@ class ExampleMainWindow(MasterOfMainWindow):
         ###################################
         # メインレイアウトにfileloaderを設置
         ###################################
-        self.file_loader = SimpleFileLoader()
+        self.file_loader = AudioFileLoader()
         self.mainlayout.addWidget(self.file_loader)
 
         ###################################
@@ -113,7 +116,10 @@ class ExampleMainWindow(MasterOfMainWindow):
     # イベントを設定する関数
     ###############################################
     def setupEvent(self):
+        # サブウィジェットのファイルロードが完了したら、メインウィンドウのシグナルに接続
         self.file_loader.fileloaded.connect(self.fileload)
+        # メインウィンドウのファイルロード処理が完了したら、解析処理を実行
+        self.fileloaded.connect(self.analysis)
 
     @Slot()
     def fileload(self):
@@ -122,13 +128,64 @@ class ExampleMainWindow(MasterOfMainWindow):
         self.statusBar().showMessage("File Loaded..%s" % (str(self.wavfilepath)), 5000)
         print str(self.wavfilepath)
 
-        self.analysis()
+        self.fileloaded.emit()
 
+    @Slot()
     def analysis(self):
+        # TODO: 解析結果を格納する構造体をどうするか?
+        # TODO: Flaskを使っているとき、辞書型でGlobal変数を作っていた
+        from FiSig.AudioManager import AudioManager
+        from scipy import hanning
+        from FiSig.gwt import gwt
+        import time
 
-        [data, fs] = wavread(self.wavfilepath)
-        data = data[0:fs - 1]
+        self.Result = Struct()
+        self.Result.wave = None
+
+        # オーディオファイルのロード
+        # [data, fs] = wavread(self.wavfilepath)
+        am = AudioManager(self.wavfilepath)
+        fs = am.getFs()
+        data = am.getData()
+
+        self.Result.fs = fs
+        self.Result.wave.data_raw = data
+
+        ############################################
+        # wave
+        ############################################
+        # DEBUG: データが長いと面倒なので、0.5sだけ抜き出す
+        if len(data) > fs/2:
+            data = data[0:fs/2-1]
         N = len(data)
+
+        self.Result.wave.data = data
+
+        ############################################
+        # STFT
+        ############################################
+        fftLen = 512
+        win = hanning(fftLen)
+        step = fftLen / 2
+        spectrogram = abs(stft(data, win, step)[:, : fftLen / 2 + 1]).T
+        spectrogram = 20 * np.log10(spectrogram)
+
+        ############################################
+        # GWT
+        ############################################
+        # GWTは解析時間が長いので、解析時間を表示
+        self.statusBar().showMessage("GWT running ..", 5000)
+        # 時間計測開始
+        start = time.time()
+
+        # GWT解析を実行する
+        d_gwt, trange, frange = gwt(data, Fs=fs)
+        d_gwt = 20 * np.log10(np.abs(d_gwt))
+        extent = trange[0], trange[-1], frange[0], frange[-1]
+
+        # 解析終了と、解析時間を表示する
+        self.statusBar().showMessage("GWT fin ... analys time %0.2f[s]" % (time.time() - start), 10000)
+
 
         fontsize = 10
 
@@ -136,9 +193,12 @@ class ExampleMainWindow(MasterOfMainWindow):
         # オーディオファイルのプロット
         # *****************************
         self.ax1.cla()
+        # グラフのプロット
         self.ax1.plot(data)
+        # 上限値選択ウィジェットの実行
         ls1 = AxisLimitSelector2D(data, self.fig1, self.ax1, self.ax1_sub)
 
+        # 軸の設定
         # self.fig1.tight_layout()
         self.ax1.set_xlabel('Time [s]', fontsize=fontsize)
         self.ax1.set_ylabel('Amplitude [-]]', fontsize=fontsize)
@@ -149,15 +209,12 @@ class ExampleMainWindow(MasterOfMainWindow):
         # *****************************
         # STFT
         # *****************************
-        from scipy import hanning
-        fftLen = 512
-        win = hanning(fftLen)
-        step = fftLen / 2
-        spectrogram = abs(stft(data, win, step)[:, : fftLen / 2 + 1]).T
-        spectrogram = 20 * np.log10(spectrogram)
         self.ax2.cla()
+        # STFT結果の表示
         self.ax2.imshow(spectrogram, origin="lower", aspect="auto", cmap="jet")
+        # 上限値選択ウィジェットの実行
         ls2 = AxisLimitSelector3D(spectrogram, self.fig2, self.ax2, self.ax2_sub)
+        # 軸の設定
         # self.fig2.tight_layout()
         self.ax2.set_xlabel('Time [s]', fontsize=fontsize)
         self.ax2.set_ylabel('Frequency [Hz]', fontsize=fontsize)
@@ -168,27 +225,17 @@ class ExampleMainWindow(MasterOfMainWindow):
         # *****************************
         # GWT
         # *****************************
-        from FiSig.gwt import gwt
-        import time
-
-        self.statusBar().showMessage("GWT running ..", 5000)
-
-        # 時間計測開始
-        start = time.time()
-        # GWT解析を実行する
-        d_gwt, trange, frange = gwt(data, Fs=fs)
-
-        # 解析終了と、解析時間を表示する
-        self.statusBar().showMessage("GWT fin ... analys time %0.2f[s]" % (time.time() - start), 10000)
-
-        d_gwt = 20 * np.log10(np.abs(d_gwt))
-        extent = trange[0], trange[-1], frange[0], frange[-1]
-        gdata = d_gwt[::10, ::10]
 
         self.ax3.cla()
+
+        # GWT結果は間引く
+        gdata = d_gwt[::10, ::10]
+        # STFT結果の表示
         im = self.ax3.imshow(np.flipud(gdata.T), cmap='jet', extent=extent)
+        # 上限値選択ウィジェットの実行
         self.selector3.setData(d_gwt, "3D")
 
+        # 軸の設定
         self.ax3.axis('auto')
         self.ax3.set_title('Scarogram (GWT)', fontsize=fontsize)
         self.ax3.title.set_visible(False)
