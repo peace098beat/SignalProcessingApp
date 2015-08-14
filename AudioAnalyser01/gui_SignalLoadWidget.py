@@ -29,7 +29,6 @@ from gui_FileLoadWidget import SimpleFileLoader
 from gui_MasterOfMainWindow import MasterOfMainWindow
 from FiSig.audiolab import wavread
 from FiSig.stft import stft
-# from FiSig.imshow_sox import imshow_sox
 
 from FiSig.axisLimitSelector import AxisLimitSelector3D, AxisLimitSelector2D, AxisLimitSelector
 
@@ -105,17 +104,10 @@ class ExampleMainWindow(MasterOfMainWindow):
         # GWTグラフを設置
         ###################################
         # Figure 3
-        # self.fig3 = plt.figure(figsize=(1,1), dpi=72, facecolor=[1,1,1], edgecolor=[0,0,0], linewidth=1.0, frameon=False,  tight_layout=False)
-        # self.ax3 = plt.subplot2grid( (1,10), (0,0), colspan=9)
-        # self.ax3_sub = plt.subplot2grid( (1,10), (0,9))
-        # self.canvas3 = FigureCanvas(self.fig3)
-        # self.mainlayout.addWidget(self.canvas3)
-
-        # ---
-        self.selector4 = AxisLimitSelector()
-        self.fig4, self.ax4, self.ax4_sub = self.selector4.getHandle()
-        self.canvas4 = FigureCanvas(self.fig4)
-        self.mainlayout.addWidget(self.canvas4)
+        self.selector3 = AxisLimitSelector()
+        self.fig3, self.ax3, self.ax3_sub = self.selector3.getHandle()
+        self.canvas3 = FigureCanvas(self.fig3)
+        self.mainlayout.addWidget(self.canvas3)
 
     ###############################################
     # イベントを設定する関数
@@ -133,14 +125,17 @@ class ExampleMainWindow(MasterOfMainWindow):
         self.analysis()
 
     def analysis(self):
+
         [data, fs] = wavread(self.wavfilepath)
         data = data[0:fs - 1]
         N = len(data)
 
         fontsize = 10
+
         # *****************************
         # オーディオファイルのプロット
         # *****************************
+        self.ax1.cla()
         self.ax1.plot(data)
         ls1 = AxisLimitSelector2D(data, self.fig1, self.ax1, self.ax1_sub)
 
@@ -160,9 +155,9 @@ class ExampleMainWindow(MasterOfMainWindow):
         step = fftLen / 2
         spectrogram = abs(stft(data, win, step)[:, : fftLen / 2 + 1]).T
         spectrogram = 20 * np.log10(spectrogram)
+        self.ax2.cla()
         self.ax2.imshow(spectrogram, origin="lower", aspect="auto", cmap="jet")
         ls2 = AxisLimitSelector3D(spectrogram, self.fig2, self.ax2, self.ax2_sub)
-
         # self.fig2.tight_layout()
         self.ax2.set_xlabel('Time [s]', fontsize=fontsize)
         self.ax2.set_ylabel('Frequency [Hz]', fontsize=fontsize)
@@ -174,27 +169,35 @@ class ExampleMainWindow(MasterOfMainWindow):
         # GWT
         # *****************************
         from FiSig.gwt import gwt
+        import time
+
+        self.statusBar().showMessage("GWT running ..", 5000)
+
+        # 時間計測開始
+        start = time.time()
+        # GWT解析を実行する
         d_gwt, trange, frange = gwt(data, Fs=fs)
+
+        # 解析終了と、解析時間を表示する
+        self.statusBar().showMessage("GWT fin ... analys time %0.2f[s]" % (time.time() - start), 10000)
+
         d_gwt = 20 * np.log10(np.abs(d_gwt))
         extent = trange[0], trange[-1], frange[0], frange[-1]
-        # im = self.ax3.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent)
-        # ls3 = AxisLimitSelector3D(d_gwt,self.fig3, self.ax3, self.ax3_sub)
+        gdata = d_gwt[::10, ::10]
 
-        # self.ax3.axis('auto')
-        # self.ax3.set_title('Scarogram (GWT)', fontsize=fontsize)
-        # self.ax3.title.set_visible(False)
-        # self.ax3.set_xlabel('Time [s]', fontsize=fontsize)
-        # self.ax3.set_ylabel('Frequency [Hz]', fontsize=fontsize)
-        # self.ax3.locator_params(nbins=10, axis='x', tight=None)
-        # self.ax3.locator_params(nbins=3, axis='y', tight=None)
-        # # self.fig3.tight_layout()
-        # # self.fig3.colorbar(im)
-        # self.canvas3.draw()
+        self.ax3.cla()
+        im = self.ax3.imshow(np.flipud(gdata.T), cmap='jet', extent=extent)
+        self.selector3.setData(d_gwt, "3D")
 
-        ##################
-        im = self.ax4.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent, aspect="auto")
-        self.selector4.setData(d_gwt, "3D")
-        self.canvas4.draw()
+        self.ax3.axis('auto')
+        self.ax3.set_title('Scarogram (GWT)', fontsize=fontsize)
+        self.ax3.title.set_visible(False)
+        self.ax3.set_xlabel('Time [s]', fontsize=fontsize)
+        self.ax3.set_ylabel('Frequency [Hz]', fontsize=fontsize)
+        self.ax3.locator_params(nbins=10, axis='x', tight=None)
+        self.ax3.locator_params(nbins=3, axis='y', tight=None)
+        self.canvas3.draw()
+
 
 
 if __name__ == '__main__':

@@ -144,14 +144,17 @@ class AxisLimitSelector2D:
         self.ax1 = ax1
         self.ax2 = ax2
         self.fig = fig
+
+        # データ取得後
+        # ax2にヒストグラムを表示
+        ax2.cla()
+        n, bins, patches = ax2.hist(x=X, bins=100, orientation='horizontal', histtype='step')
+
         # 目盛の設定
         ax1.grid()
         ax2.set_xticklabels([])
         ax2.set_yticklabels([])
 
-        # データ取得後
-        # ax2にヒストグラムを表示
-        n, bins, patches = ax2.hist(x=X, bins=100, orientation='horizontal', histtype='step')
         # ax2のlimを取得
         ax2.xmin, ax2.xmax = ax2.get_xlim()
         ax2.ymin, ax2.ymax = ax2.get_ylim()
@@ -181,7 +184,7 @@ class AxisLimitSelector2D:
         def line_upper_draw_event(event):
             # print 'line_upper_draw_event'
             [ymin, a] = self.ax1.get_ylim()
-            a, ymax = self.line_upper.get_ydata()
+            [a, ymax] = self.line_upper.get_ydata()
             self.ax1.set_ylim([ymin, ymax])
 
         def line_lower_draw_event(event):
@@ -205,6 +208,7 @@ class AxisLimitSelector3D:
         self.im = None
 
         # ax2にヒストグラムを表示
+        ax2.cla()
         n, bins, patches = ax2.hist(x=Z.flatten(), bins=100, orientation='horizontal', histtype='step')
 
         # 目盛の設定

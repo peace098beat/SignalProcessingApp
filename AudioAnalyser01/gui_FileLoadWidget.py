@@ -9,10 +9,7 @@ FileLoadDlg
 
 
 """
-
 import sys
-# sys.stdin.encode
-# sys.stdout.encode
 from PySide import QtGui, QtCore
 
 class SimpleFileLoader(QtGui.QWidget):
@@ -36,6 +33,9 @@ class SimpleFileLoader(QtGui.QWidget):
 
         self.fname_label = QtGui.QLabel('no file__________________________________________________________', self)
         self.fname_label.move(100, 10)
+
+        self.play_btn = QtGui.QPushButton('Play', self)
+        self.play_btn.move(20, 40)
 
         # self.setGeometry(0, 0, 1, 80)
         # self.setWindowTitle('SimpleFileLoader')
@@ -149,6 +149,7 @@ class SimpleFileLoader(QtGui.QWidget):
 def main():
     app = QtGui.QApplication(sys.argv)
     w = SimpleFileLoader()
+    w.show()
     sys.exit(app.exec_())
 
 if __name__ == '__main__':

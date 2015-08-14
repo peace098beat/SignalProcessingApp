@@ -16,6 +16,7 @@ Method:
     play():     オーディオの再生
     set_wav():  wavファイルを設定
 
+
 Example:
     file_path_1 = './audio1.wav'
     am = AudioManager(file_path_1)
@@ -27,6 +28,11 @@ Example:
     am.play()
     w_data_2 = am.data
 
+問題点:
+    bufferをint16でしか読みだせない。
+    つまり16bitオーディオしか呼び出せない。。
+
+
 Reference:
     <wave: http://docs.python.jp/2/library/wave.html>
 """
@@ -36,6 +42,8 @@ import wave
 import numpy as np
 import pyaudio
 
+import sndhdr
+import warnings
 
 __author__ = "Tomoyuki Nohara <fififactory.com>"
 __status__ = "production"
@@ -47,62 +55,62 @@ class AudioManager(object):
 
     """docstring for AudioManager
     """
-    # CHUNK = 1024
 
     def __init__(self, filepath=None):
-        # Debug
-        if filepath == None:
-            self.filepath = './audio/golf_D.wav'
-        else:
+        self.filepath = None
+        self.filename = None
+        self.data_raw = None
+        self.data = None
+        self.data_n = None
+
+        # ファイルが存在しない場合は何もしない
+        if os.path.exists(filepath):
             self.filepath = filepath
-        self.filename = os.path.basename(self.filepath)
-        self.set_wav(self.filepath)
+            self.filename = os.path.basename(self.filepath)
+            self.set_wav(self.filepath)
+        else:
+            warnings.warn("file is not exists")
+
 
     def set_wav(self, filepath):
         """waveファイルの読み込み
         疑似ファイル(画像等)を.wavで読み込ますと、waveパッケージの方で
         エラーを出力してしまう。ファイル拡張子のエラーに対応している。
         """
-        print '== AudioManager::set_wav =='
-        if os.path.exists(filepath):
-            print 'ファイルが存在しました。', filepath
-            filename = os.path.basename(filepath)
+        # ファイルが存在しない場合は返却
+        if not os.path.exists(filepath):
+            raise StandardError("File is not exist %s" % (filepath))
+            return
 
-            # ファイルが存在する場合の処理
-            root, ext = os.path.splitext(filepath)
-            # ext = '.wav'
-            if ext == '.wav' or ext == '.wave':
-                # オーディオファイルであれば
-                try:
-                    # ファイルオープン
-                    wf_tmp = wave.open(filepath, 'rb')
-                except Exception, e:
-                    print ""
-                    print "++++++++++++++++++++++++++++++++++++++++"
-                    print 'WARNING: wavファイルの読み込みに失敗しました.'
-                    print filename
-                    print type(e)
-                    print e
-                    print "++++++++++++++++++++++++++++++++++++++++"
-                    # raise
-                    pass
-                else:
-                    # 正常時の処理
-                    self.wf = wf_tmp
-                    self.filename = filename
-                    self.filepath = filepath
-                    self.__initialize()
-                    self.__set_data()
-                finally:
-                    pass
+        # ファイル名の取得
+        filename = os.path.basename(filepath)
+
+        if sndhdr.what(filepath)[0] is not 'wav':
+            return
+
+        # オーディオファイルであれば
+        try:
+            # ファイルオープン
+            wf_tmp = wave.open(filepath, 'rb')
+        except IOError:
+            raise StandardError("Cant file load %s" % (filename))
         else:
-            print 'ファイルは存在しません'
-            print filepath
+            # 正常時の処理
+            self.wf = wf_tmp
+            self.filename = filename
+            self.filepath = filepath
+            self.__initialize()
+            self.__set_data()
+        finally:
+            pass
 
     def play(self):
         """Play Audio by PyAudio
         wfの依存をなくす
         """
+        if self.wf is None:
+            raise StandardError("AuudioManager cant play. wave object is None")
+
         print '== Audio:play run.. =='
         p = pyaudio.PyAudio()
 
@@ -129,6 +137,13 @@ class AudioManager(object):
 
         # ファイルポインタをオーディオストリームの先頭に戻す
         self.wf.rewind()
+
+    def getData(self):
+        try:
+            return self.data_raw, self.data, self.data_n
+        except AttributeError:
+            warnings.warn("AudioManager have not data_raw & data & data_n")
+            return 0,0,0
 
     def __initialize(self):
         """オーディオデータの基本情報
@@ -161,19 +176,34 @@ class AudioManager(object):
 
         # Numpy配列に変換
         # バイナリなので2バイトずつ整数(-32768-32767)にまとめる
-        self.data_raw = np.frombuffer(wbuffer, dtype="int16")
+        bit = self.sampwidth * 8
+        if bit == 8:
+            self.data_raw = np.frombuffer(wbuffer, dtype="int8")
+        elif bit == 16:
+            self.data_raw = np.frombuffer(wbuffer, dtype="int16")
+        elif bit == 32:
+            self.data_raw = np.frombuffer(wbuffer, dtype="int32")
+        elif bit == 24:
+            # 24bit データを読み込み、16bitに変換
+            self.data_raw = np.frombuffer(wbuffer,'b').reshape(-1,3)[:,1:].flatten().view('i2')
+        else:
+            print 'Wargning!!!!!!! bit %d is none' % bit
 
         # 1チャンネルに変更
         self.data = []
-        if self.data_raw.ndim == 1:
+        if self.channels == 1:
+            # print 'channel 1'
             self.data = self.data_raw[:]
-        if self.data_raw.ndim == 2:
-            self.data = self.data_raw[:, 0]
-            # self.data = self.data_raw[:,1]
-            # self.data = self.data_raw[:,0] + self.data_raw[:,1]
+        if self.channels == 2:
+            # print 'channel 2'
+            self.data = self.data_raw[::2]
 
         # 正規化処理
-        amp = (2. ** 8) ** self.sampwidth / 2
+        amp = (2. ** 8) ** self.sampwidth / 2 -1
+        if self.sampwidth * 8 == 24:
+            byte = 2
+            amp = (2.**8) ** byte / 2 -1
+
         self.data_n = self.data / float(amp)
 
     def __printWaveInfo(self):
@@ -187,28 +217,27 @@ class AudioManager(object):
         print "フレーム数:", self.wf.getnframes()
         print "パラメータ:", self.wf.getparams()
         print "長さ（秒）:", float(self.wf.getnframes()) / self.wf.getframerate()
-        print "振幅幅", (2 ** 8) ** self.sampwidth / 2
+        print "振幅幅", (2 ** 8) ** self.sampwidth / 2 -1
         print "-------------------------"
         print ""
 
 
+
+
+
+
 def main():
-    path = './audio/golf_D.wav'
+    path = './audio/sin_44100_24bit_stereo_5s.wav'
     am = AudioManager(path)
     am.play()
-    # path = './audio/music1.wav'
-    path = './audio/M1F1-int16WE-AFsp.wav'
-    am.set_wav(path)
-    am.play()
-    wave_data = am.data
-    amp = float((2 ** 8) ** am.sampwidth / 2)
-    wave_data = wave_data / float(amp)
-    print wave_data
-    print max(wave_data)
+
+    data_raw, data, data_n = am.getData()
+    print type(data)
+    print len(data_raw), len(data), len(data_n)
+    print max(data_raw), max(data), max(data_n)
+    print min(data_raw), min(data), min(data_n)
+    pass
 
 
 if __name__ == '__main__':
     main()
-
-dumy = 1
-dumy = 2
