@@ -34,12 +34,10 @@ from FiSig.stft import stft
 from FiSig.axisLimitSelector import AxisLimitSelector3D, AxisLimitSelector2D, AxisLimitSelector
 
 
-
 ##########################################################
 # Example
 ##########################################################
 class ExampleMainWindow(MasterOfMainWindow):
-
     def __init__(self):
         MasterOfMainWindow.__init__(self)
         self.setWindowTitle(__appname__)
@@ -66,7 +64,7 @@ class ExampleMainWindow(MasterOfMainWindow):
         # MainWindow直下のレイアウトを生成
         ###################################
         self.panel = QWidget()
-        self.mainlayout =  QVBoxLayout(self.panel)
+        self.mainlayout = QVBoxLayout(self.panel)
         self.setCentralWidget(self.panel)
 
         ###################################
@@ -85,9 +83,9 @@ class ExampleMainWindow(MasterOfMainWindow):
         # 波形描画グラフを設置
         ###################################
         # Figure 1
-        self.fig1 = plt.figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
-        self.ax1 = plt.subplot2grid( (1,10), (0,0), colspan=9)
-        self.ax1_sub = plt.subplot2grid( (1,10), (0,9))
+        self.fig1 = plt.figure(figsize=(1, 1), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0))
+        self.ax1 = plt.subplot2grid((1, 10), (0, 0), colspan=9)
+        self.ax1_sub = plt.subplot2grid((1, 10), (0, 9))
 
         self.canvas1 = FigureCanvas(self.fig1)
         self.mainlayout.addWidget(self.canvas1)
@@ -96,9 +94,9 @@ class ExampleMainWindow(MasterOfMainWindow):
         # STFTグラフを設置
         ###################################
         # Figure 2
-        self.fig2 = plt.figure(figsize=(1,1), dpi=72, facecolor=(1,1,1), edgecolor=(0,0,0))
-        self.ax2 = plt.subplot2grid( (1,10), (0,0), colspan=9)
-        self.ax2_sub = plt.subplot2grid( (1,10), (0,9))
+        self.fig2 = plt.figure(figsize=(1, 1), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0))
+        self.ax2 = plt.subplot2grid((1, 10), (0, 0), colspan=9)
+        self.ax2_sub = plt.subplot2grid((1, 10), (0, 9))
 
         self.canvas2 = FigureCanvas(self.fig2)
         self.mainlayout.addWidget(self.canvas2)
@@ -113,19 +111,16 @@ class ExampleMainWindow(MasterOfMainWindow):
         # self.canvas3 = FigureCanvas(self.fig3)
         # self.mainlayout.addWidget(self.canvas3)
 
-        #---
+        # ---
         self.selector4 = AxisLimitSelector()
         self.fig4, self.ax4, self.ax4_sub = self.selector4.getHandle()
         self.canvas4 = FigureCanvas(self.fig4)
         self.mainlayout.addWidget(self.canvas4)
 
-
-
     ###############################################
     # イベントを設定する関数
     ###############################################
     def setupEvent(self):
-
         self.file_loader.fileloaded.connect(self.fileload)
 
     @Slot()
@@ -138,8 +133,8 @@ class ExampleMainWindow(MasterOfMainWindow):
         self.analysis()
 
     def analysis(self):
-        [data, fs]=wavread(self.wavfilepath)
-        data = data[0:fs-1]
+        [data, fs] = wavread(self.wavfilepath)
+        data = data[0:fs - 1]
         N = len(data)
 
         fontsize = 10
@@ -164,9 +159,9 @@ class ExampleMainWindow(MasterOfMainWindow):
         win = hanning(fftLen)
         step = fftLen / 2
         spectrogram = abs(stft(data, win, step)[:, : fftLen / 2 + 1]).T
-        spectrogram = 20*np.log10(spectrogram)
-        self.ax2.imshow(spectrogram, origin = "lower", aspect = "auto", cmap = "jet")
-        ls2 = AxisLimitSelector3D(spectrogram,self.fig2, self.ax2, self.ax2_sub)
+        spectrogram = 20 * np.log10(spectrogram)
+        self.ax2.imshow(spectrogram, origin="lower", aspect="auto", cmap="jet")
+        ls2 = AxisLimitSelector3D(spectrogram, self.fig2, self.ax2, self.ax2_sub)
 
         # self.fig2.tight_layout()
         self.ax2.set_xlabel('Time [s]', fontsize=fontsize)
@@ -180,7 +175,7 @@ class ExampleMainWindow(MasterOfMainWindow):
         # *****************************
         from FiSig.gwt import gwt
         d_gwt, trange, frange = gwt(data, Fs=fs)
-        d_gwt = 20*np.log10(np.abs(d_gwt))
+        d_gwt = 20 * np.log10(np.abs(d_gwt))
         extent = trange[0], trange[-1], frange[0], frange[-1]
         # im = self.ax3.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent)
         # ls3 = AxisLimitSelector3D(d_gwt,self.fig3, self.ax3, self.ax3_sub)
@@ -197,14 +192,13 @@ class ExampleMainWindow(MasterOfMainWindow):
         # self.canvas3.draw()
 
         ##################
-        im = self.ax4.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent, aspect = "auto")
-        self.selector4.setData(d_gwt,"3D")
+        im = self.ax4.imshow(np.flipud(d_gwt.T), cmap='jet', extent=extent, aspect="auto")
+        self.selector4.setData(d_gwt, "3D")
         self.canvas4.draw()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = ExampleMainWindow()
     w.show()
     sys.exit(app.exec_())
-
-
