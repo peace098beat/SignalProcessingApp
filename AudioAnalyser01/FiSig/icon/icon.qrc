@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icon_fifi">
+    <file>icon_fifi.png</file>
+    <file>icon_fifics.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

@@ -12,7 +12,6 @@ import wave
 import time
 
 import matplotlib
-
 matplotlib.rcParams['backend.qt4'] = 'PySide'
 matplotlib.use('Qt4Agg')
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas

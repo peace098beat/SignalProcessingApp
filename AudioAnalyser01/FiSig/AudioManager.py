@@ -62,6 +62,10 @@ class AudioManager(object):
         self.data_raw = None
         self.data = None
         self.data_n = None
+        self.wf = None
+
+        if filepath is None:
+            return
 
         # ファイルが存在しない場合は何もしない
         if os.path.exists(filepath):
