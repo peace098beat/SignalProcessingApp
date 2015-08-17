@@ -77,6 +77,7 @@ class WaveMplCanvas(FigureCanvas):
         self.fontsize = 10
         # fiugrueの生成
         self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0), tight_layout=False)
+        # self.fig = plt.figure(facecolor=(0.5, 0.5, 0.5), edgecolor=(0, 0, 0), tight_layout=False)
         # axesハンドルの生成
         self.axes = plt.subplot2grid((1, 10), (0, 0), colspan=9)
         self.axes_sub = plt.subplot2grid((1, 10), (0, 9))
@@ -129,8 +130,8 @@ class GwtMplCanvas(FigureCanvas):
         self.fontsize = 10
 
         # fiugrueの生成
-        # self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0), tight_layout=False)
-        self.fig = plt.figure(facecolor=(0.5, 0.5, 0.5), edgecolor=(0, 0, 0), tight_layout=False)
+        self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0), tight_layout=False)
+        # self.fig = plt.figure(facecolor=(0.5, 0.5, 0.5), edgecolor=(0, 0, 0), tight_layout=False)
         # axesハンドルの生成
         self.axes = plt.subplot2grid((1, 10), (0, 0), colspan=9)
         self.axes_sub = plt.subplot2grid((1, 10), (0, 9))
