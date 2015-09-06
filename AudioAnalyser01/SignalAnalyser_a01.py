@@ -92,12 +92,16 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
         # wave
         ############################################
         # DEBUG: データが長いと面倒なので、0.5sだけ抜き出す
-        if len(data) >= fs / 2:
-            data = data[0:fs / 2 - 1]
+        if len(data) >= fs:
+            data = data[0:fs - 1]
         N = len(data)
+
+        wave_trange = np.arange(N)/float(fs)
+
 
         # --- データを格納 ---
         self.wave_d = data
+        self.wave_trange = wave_trange
         # -- progress bar --
         self.progressBar.setValue(30)
         ############################################
@@ -113,6 +117,7 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
         # self.spec_d = spectrogram
         # -- progress bar --
         self.progressBar.setValue(60)
+
         ############################################
         # GWT
         ############################################
@@ -123,6 +128,7 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
 
         # GWT解析を実行する
         d_gwt, trange, frange = gwt(data, Fs=fs)
+        # d_gwt = 20 * np.log10(np.abs(d_gwt))
         d_gwt = 20 * np.log10(np.abs(d_gwt))
         extent = trange[0], trange[-1], frange[0], frange[-1]
 
@@ -144,8 +150,9 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
     @Slot()
     def plot(self):
         self.flashStatusBar("Call plot")
-        self.figure1.plot(ydata=self.wave_d)
-        self.figure2.plot(zdata=self.gwt_d, extent=self.gwt_extent)
+        self.figure1.plot(ydata=self.wave_d, xdata=self.wave_trange)
+        self.figure2.plot(zdata=self.gwt_d[::10,:], extent=self.gwt_extent)
+        self.figure3.plot(atTime=1, zdata=self.gwt_d, trange=self.gwt_trange, frange=self.gwt_frange)
 
         pass
 

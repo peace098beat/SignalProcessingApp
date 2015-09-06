@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'UI_SignalAnalyser_a01.ui'
 #
-# Created: Mon Aug 17 18:45:03 2015
+# Created: Mon Aug 17 20:58:26 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,9 +12,10 @@ from PySide import QtCore, QtGui
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(963, 609)
+        MainWindow.resize(961, 555)
         MainWindow.setMinimumSize(QtCore.QSize(761, 485))
-        MainWindow.setStyleSheet("")
+        MainWindow.setStyleSheet("    background-color: rgb(255, 255, 255);\n"
+"")
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.load_btn = QtGui.QPushButton(self.centralwidget)
@@ -44,35 +45,47 @@ class Ui_MainWindow(object):
         self.figure2 = GwtMplCanvas(self.centralwidget)
         self.figure2.setGeometry(QtCore.QRect(25, 315, 466, 171))
         self.figure2.setObjectName("figure2")
+        self.atTimeSlider = QtGui.QSlider(self.centralwidget)
+        self.atTimeSlider.setGeometry(QtCore.QRect(530, 80, 391, 19))
+        self.atTimeSlider.setMaximum(99)
+        self.atTimeSlider.setSingleStep(1)
+        self.atTimeSlider.setOrientation(QtCore.Qt.Horizontal)
+        self.atTimeSlider.setObjectName("atTimeSlider")
+        self.figure3 = SpectrumAtTimeMplCanvas(self.centralwidget)
+        self.figure3.setGeometry(QtCore.QRect(525, 135, 401, 171))
+        self.figure3.setObjectName("figure3")
+        self.lcdNumber = QtGui.QLCDNumber(self.centralwidget)
+        self.lcdNumber.setGeometry(QtCore.QRect(690, 30, 64, 23))
+        self.lcdNumber.setObjectName("lcdNumber")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 963, 24))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 961, 24))
         palette = QtGui.QPalette()
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Button, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Button, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Button, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(73, 73, 73))
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
         self.menubar.setPalette(palette)
@@ -127,6 +140,10 @@ class Ui_MainWindow(object):
         QtCore.QObject.connect(MainWindow, QtCore.SIGNAL("fileloaded(QString)"), MainWindow.setAudioFile)
         QtCore.QObject.connect(self.ana_btn, QtCore.SIGNAL("clicked()"), MainWindow.analys)
         QtCore.QObject.connect(self.plot_btn, QtCore.SIGNAL("clicked()"), MainWindow.plot)
+        QtCore.QObject.connect(self.atTimeSlider, QtCore.SIGNAL("valueChanged(int)"), self.figure3.updateAtTime)
+        QtCore.QObject.connect(self.atTimeSlider, QtCore.SIGNAL("valueChanged(int)"), self.lcdNumber.display)
+        QtCore.QObject.connect(self.atTimeSlider, QtCore.SIGNAL("valueChanged(int)"), self.figure2.updateAtTime)
+        QtCore.QObject.connect(self.atTimeSlider, QtCore.SIGNAL("valueChanged(int)"), self.figure1.updateAtTime)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -144,4 +161,4 @@ class Ui_MainWindow(object):
         self.actionOpen_wav_2.setText(QtGui.QApplication.translate("MainWindow", "Open(.wav)", None, QtGui.QApplication.UnicodeUTF8))
         self.actionClose_2.setText(QtGui.QApplication.translate("MainWindow", "Close", None, QtGui.QApplication.UnicodeUTF8))
 
-from FiSig.MplCanvas import WaveMplCanvas, GwtMplCanvas
+from FiSig.MplCanvas import SpectrumAtTimeMplCanvas, WaveMplCanvas, GwtMplCanvas
