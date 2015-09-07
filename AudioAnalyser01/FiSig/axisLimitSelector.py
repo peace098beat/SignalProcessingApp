@@ -186,12 +186,16 @@ class AxisLimitSelector2D:
             [ymin, a] = self.ax1.get_ylim()
             [a, ymax] = self.line_upper.get_ydata()
             self.ax1.set_ylim([ymin, ymax])
+            # 再描画
+            self.ax1.figure.canvas.draw()
 
         def line_lower_draw_event(event):
             # print 'line_lower_draw_event'
             [a, ymax] = self.ax1.get_ylim()
             ymin, a = self.line_lower.get_ydata()
             self.ax1.set_ylim([ymin, ymax])
+            # 再描画
+            self.ax1.figure.canvas.draw()
 
         #########################################
         # コネクト
@@ -252,11 +256,15 @@ class AxisLimitSelector3D:
             [ymin, a] = self.im.get_clim()
             [a, ymax] = self.line_upper.get_ydata()
             self.im.set_clim([ymin, ymax])
+            # 再描画
+            self.im.figure.canvas.draw()
 
         def line_lower_draw_event(event):
             [a, ymax] = self.im.get_clim()
             [ymin, a] = self.line_lower.get_ydata()
             self.im.set_clim([ymin, ymax])
+            # 再描画
+            self.im.figure.canvas.draw()
 
         #########################################
         # コネクト

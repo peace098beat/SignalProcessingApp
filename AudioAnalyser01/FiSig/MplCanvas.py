@@ -18,6 +18,10 @@ from matplotlib.figure import Figure
 import numpy as np
 import matplotlib.pyplot as plt
 
+# plt.style.use(['dark_background', 'presentation'])
+plt.style.use('dark_background')
+
+
 ## GUIモジュール
 from axisLimitSelector import AxisLimitSelector3D, AxisLimitSelector2D, AxisLimitSelector
 
@@ -86,9 +90,10 @@ class WaveMplCanvas(FigureCanvas):
     def __init__(self, parent=None, width=1, height=1, dpi=72):
         self.fontsize = 10
         # fiugrueの生成
-        self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
-                              tight_layout=False)
+        # self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
+        #                       tight_layout=False)
         # self.fig = plt.figure(facecolor=(0.5, 0.5, 0.5), edgecolor=(0, 0, 0), tight_layout=False)
+        self.fig = plt.figure(figsize=(width, height), dpi=72,tight_layout=False)
         # axesハンドルの生成
         self.axes = plt.subplot2grid((1, 10), (0, 0), colspan=9)
         self.axes_sub = plt.subplot2grid((1, 10), (0, 9))
@@ -126,7 +131,7 @@ class WaveMplCanvas(FigureCanvas):
         self.axes.plot(xdata, ydata)
         AxisLimitSelector2D(ydata, self.fig, self.axes, self.axes_sub)
         self.axes.set_xlabel('Time [s]', fontsize=self.fontsize)
-        self.axes.set_ylabel('Amplitude [-]]', fontsize=self.fontsize)
+        self.axes.set_ylabel('Amplitude [-]', fontsize=self.fontsize)
         self.axes.locator_params(nbins=10, axis='x', tight=True)
         self.axes.locator_params(nbins=3, axis='y', tight=True)
         self.axes.axis('tight')
@@ -136,6 +141,8 @@ class WaveMplCanvas(FigureCanvas):
         self.axes.hold(True)
         self.seakbar_handle, = self.axes.plot([0], [0])
         self.axes.hold(False)
+        # -- 再描画 --
+        self.draw()
         pass
 
     @Slot()
@@ -165,9 +172,11 @@ class GwtMplCanvas(FigureCanvas):
         self.fontsize = 10
 
         # fiugrueの生成
-        self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
-                              tight_layout=False)
+        # self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
+        #                       tight_layout=False)
         # self.fig = plt.figure(facecolor=(0.5, 0.5, 0.5), edgecolor=(0, 0, 0), tight_layout=False)
+        self.fig = plt.figure(figsize=(width, height), dpi=72,tight_layout=False)
+
         # axesハンドルの生成
         self.axes = plt.subplot2grid((1, 10), (0, 0), colspan=9)
         self.axes_sub = plt.subplot2grid((1, 10), (0, 9))
@@ -244,8 +253,10 @@ class SpectrumAtTimeMplCanvas(FigureCanvas):
     def __init__(self, parent=None, width=5, height=5, dpi=72):
         self.fontsize = 10
         # fiugrueの生成
-        self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
-                              tight_layout=False)
+        # self.fig = plt.figure(figsize=(width, height), dpi=72, facecolor=(1, 1, 1), edgecolor=(0, 0, 0),
+        #                       tight_layout=False)
+        self.fig = plt.figure(figsize=(width, height), dpi=72,tight_layout=False)
+
         # axesハンドルの生成
         self.axes = self.fig.add_subplot(111)
         # 再描画では上書きしない
