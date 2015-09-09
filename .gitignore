@@ -8,3 +8,4 @@
 *.sublime-project
 *.sublime-workspace
 AudioAnalyser01/build/gui_SignalLoadWidget/warngui_SignalLoadWidget.txt
+.idea/workspace.xml
