@@ -1,4 +1,13 @@
 #! coding:utf-8
+"""
+基本的な信号処理コード
+
+FFT
+GWT
+ケプストラム・リフタリング
+
+
+"""
 import sys
 import wave
 import time
