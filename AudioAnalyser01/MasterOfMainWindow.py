@@ -24,6 +24,11 @@ class MasterOfMainWindow(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
         self.setWindowIcon(QIcon('./FiSig/icon/icon_fifi.png'))
+        # ====================================
+        # 初期設定
+        # ====================================
+        # Drag Dropを許可
+        self.setAcceptDrops(True)
 
         # ====================================
         # メンバ変数の定義
