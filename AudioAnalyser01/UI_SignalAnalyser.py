@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'UI_SignalAnalyser_a02.ui'
+# Form implementation generated from reading ui file 'UI_SignalAnalyser.ui'
 #
-# Created: Mon Sep 07 15:01:57 2015
+# Created: Sun Sep 13 18:59:19 2015
 #      by: pyside-uic 0.2.15 running on PySide 1.2.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -12,8 +12,7 @@ from PySide import QtCore, QtGui
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(609, 798)
-        MainWindow.setMinimumSize(QtCore.QSize(529, 798))
+        MainWindow.resize(692, 607)
         MainWindow.setMaximumSize(QtCore.QSize(692, 1016))
         MainWindow.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "background-color: rgb(43, 43, 43);\n"
@@ -21,10 +20,10 @@ class Ui_MainWindow(object):
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.load_btn = QtGui.QPushButton(self.centralwidget)
-        self.load_btn.setGeometry(QtCore.QRect(20, 20, 75, 23))
+        self.load_btn.setGeometry(QtCore.QRect(20, 15, 75, 23))
         self.load_btn.setObjectName("load_btn")
         self.label = QtGui.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(100, 20, 381, 16))
+        self.label.setGeometry(QtCore.QRect(100, 15, 381, 16))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.label.setFont(font)
@@ -33,35 +32,38 @@ class Ui_MainWindow(object):
 "padding:2px;")
         self.label.setObjectName("label")
         self.play_btn = QtGui.QPushButton(self.centralwidget)
-        self.play_btn.setGeometry(QtCore.QRect(20, 45, 75, 23))
+        self.play_btn.setGeometry(QtCore.QRect(20, 40, 75, 23))
         self.play_btn.setObjectName("play_btn")
         self.ana_btn = QtGui.QPushButton(self.centralwidget)
-        self.ana_btn.setGeometry(QtCore.QRect(20, 80, 75, 23))
+        self.ana_btn.setGeometry(QtCore.QRect(20, 75, 75, 23))
         self.ana_btn.setObjectName("ana_btn")
         self.figure1 = WaveMplCanvas(self.centralwidget)
-        self.figure1.setGeometry(QtCore.QRect(50, 120, 466, 171))
+        self.figure1.setGeometry(QtCore.QRect(210, 110, 466, 96))
         self.figure1.setObjectName("figure1")
         self.plot_btn = QtGui.QPushButton(self.centralwidget)
-        self.plot_btn.setGeometry(QtCore.QRect(105, 80, 75, 23))
+        self.plot_btn.setGeometry(QtCore.QRect(105, 75, 75, 23))
         self.plot_btn.setObjectName("plot_btn")
         self.figure2 = GwtMplCanvas(self.centralwidget)
-        self.figure2.setGeometry(QtCore.QRect(50, 310, 466, 171))
+        self.figure2.setGeometry(QtCore.QRect(210, 220, 466, 111))
         self.figure2.setObjectName("figure2")
         self.atTimeSlider = QtGui.QSlider(self.centralwidget)
-        self.atTimeSlider.setGeometry(QtCore.QRect(40, 530, 471, 19))
+        self.atTimeSlider.setGeometry(QtCore.QRect(205, 380, 471, 19))
         self.atTimeSlider.setMaximum(99)
         self.atTimeSlider.setSingleStep(1)
         self.atTimeSlider.setOrientation(QtCore.Qt.Horizontal)
         self.atTimeSlider.setObjectName("atTimeSlider")
         self.figure3 = SpectrumAtTimeMplCanvas(self.centralwidget)
-        self.figure3.setGeometry(QtCore.QRect(50, 560, 461, 171))
+        self.figure3.setGeometry(QtCore.QRect(215, 410, 461, 126))
         self.figure3.setObjectName("figure3")
         self.lcdNumber = QtGui.QLCDNumber(self.centralwidget)
-        self.lcdNumber.setGeometry(QtCore.QRect(240, 500, 64, 23))
+        self.lcdNumber.setGeometry(QtCore.QRect(415, 345, 64, 23))
         self.lcdNumber.setObjectName("lcdNumber")
+        self.myListView = FileListWidget(self.centralwidget)
+        self.myListView.setGeometry(QtCore.QRect(20, 110, 161, 391))
+        self.myListView.setObjectName("myListView")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 609, 24))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 692, 24))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(43, 43, 43))
         brush.setStyle(QtCore.Qt.SolidPattern)
@@ -164,3 +166,4 @@ class Ui_MainWindow(object):
         self.actionClose_2.setText(QtGui.QApplication.translate("MainWindow", "Close", None, QtGui.QApplication.UnicodeUTF8))
 
 from FiSig.MplCanvas import SpectrumAtTimeMplCanvas, WaveMplCanvas, GwtMplCanvas
+from FileListWidget import FileListWidget

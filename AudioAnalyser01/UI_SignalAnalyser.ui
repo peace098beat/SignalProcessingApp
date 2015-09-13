@@ -6,15 +6,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>609</width>
-    <height>798</height>
+    <width>692</width>
+    <height>607</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>529</width>
-    <height>798</height>
-   </size>
   </property>
   <property name="maximumSize">
    <size>
@@ -35,7 +29,7 @@ background-color: rgb(43, 43, 43);
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>20</y>
+      <y>15</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -48,7 +42,7 @@ background-color: rgb(43, 43, 43);
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>20</y>
+      <y>15</y>
       <width>381</width>
       <height>16</height>
      </rect>
@@ -71,7 +65,7 @@ padding:2px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>45</y>
+      <y>40</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -84,7 +78,7 @@ padding:2px;</string>
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>80</y>
+      <y>75</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -96,10 +90,10 @@ padding:2px;</string>
    <widget class="WaveMplCanvas" name="figure1" native="true">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>120</y>
+      <x>210</x>
+      <y>110</y>
       <width>466</width>
-      <height>171</height>
+      <height>96</height>
      </rect>
     </property>
    </widget>
@@ -107,7 +101,7 @@ padding:2px;</string>
     <property name="geometry">
      <rect>
       <x>105</x>
-      <y>80</y>
+      <y>75</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -119,18 +113,18 @@ padding:2px;</string>
    <widget class="GwtMplCanvas" name="figure2" native="true">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>310</y>
+      <x>210</x>
+      <y>220</y>
       <width>466</width>
-      <height>171</height>
+      <height>111</height>
      </rect>
     </property>
    </widget>
    <widget class="QSlider" name="atTimeSlider">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>530</y>
+      <x>205</x>
+      <y>380</y>
       <width>471</width>
       <height>19</height>
      </rect>
@@ -148,20 +142,30 @@ padding:2px;</string>
    <widget class="SpectrumAtTimeMplCanvas" name="figure3" native="true">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>560</y>
+      <x>215</x>
+      <y>410</y>
       <width>461</width>
-      <height>171</height>
+      <height>126</height>
      </rect>
     </property>
    </widget>
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>500</y>
+      <x>415</x>
+      <y>345</y>
       <width>64</width>
       <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="FileListWidget" name="myListView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>161</width>
+      <height>391</height>
      </rect>
     </property>
    </widget>
@@ -171,7 +175,7 @@ padding:2px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>609</width>
+     <width>692</width>
      <height>24</height>
     </rect>
    </property>
@@ -371,6 +375,11 @@ border-color: rgb(0, 0, 0);</string>
    <slots>
     <slot>updateAtTime()</slot>
    </slots>
+  </customwidget>
+  <customwidget>
+   <class>FileListWidget</class>
+   <extends>QListView</extends>
+   <header>FileListWidget.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>

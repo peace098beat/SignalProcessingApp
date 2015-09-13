@@ -17,7 +17,7 @@ from UI_SignalAnalyser import Ui_MainWindow
 
 ## FiSigモジュール
 from FiSig.AudioManager import AudioManager
-
+from FileListWidget import FileListWidget
 ## uiファイル名
 # uiFile = 'UI_SignalAnalyser.ui'
 
@@ -46,10 +46,11 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
         self.progressBar.setValue(10)
 
         # ====================================
-        # Event の接続
+        # モデルとデリゲートを生成
         # ====================================
         self.fileloaded.connect(self.flashStatusBar)
         self.fileloaded.connect(self._subroutin)
+        self.connect(self.myListView, SIGNAL("clicked(QModelIndex)"), self.slot1)
 
     def setCSS(self):
         """
@@ -61,6 +62,14 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
     # ==========================================
     # Slotの設定
     # ==========================================
+    @Slot()
+    def slot1(self, index):
+        print 'listslot'
+        print index.row()
+        print index.data(Qt.DisplayRole)
+        name = index.data(Qt.DisplayRole)
+        self.cahangeFilePath(name)
+
     @Slot()
     @Slot(str)
     def flashStatusBar(self, fstring):
@@ -174,6 +183,44 @@ class GUI(MasterOfMainWindow, Ui_MainWindow):
         self.analys()
         self.plot()
 
+    def dropEvent(self, event):
+        """ドロップイベントの検知
+        MasterMainWindowメソッドの継承
+        """
+        print 'dropEvent'
+
+        urls = [unicode(u.toLocalFile()) for u in event.mimeData().urls()]
+
+        # リストを消去
+        self.myListView.clearItems()
+
+        import glob
+
+        # 各URLをリストに追加する
+        for url in urls:
+            # URLがフォルダかファイルかを判定
+            if os.path.isdir(url):
+                # パスを正規化
+                abspath = os.path.abspath(url)
+                print 'This is Dir : ', abspath
+                # フォルダ直下の.wavを検索
+                searchpath = os.path.join(abspath, '*.wav')
+                # ディレクトリ直下のファイルを呼び出す
+                files = [r for r in glob.glob(searchpath)]
+                # ファイルリストから一つずつリストに追加
+                for file in files:
+                    self.myListView.addItem({u"name": file})
+
+            else:
+                # URLがファイルの場合、(.wav)だけをリストにつか
+                abspath = os.path.abspath(url)
+                # 拡張子を取得
+                name, ext = os.path.splitext(abspath)
+                # .wavの場合だけ追加
+                if ext == '.wav':
+                    self.myListView.addItem({u"name": file})
+
+                print 'This is not Dir :', abspath
 
 # =============================================================================
 ## GUIの起動

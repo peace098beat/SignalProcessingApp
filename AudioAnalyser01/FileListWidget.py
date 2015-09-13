@@ -143,6 +143,7 @@ class CustomListModel(QAbstractListModel):
         else:
             return None
 
+
 # =============================================================================
 
 class CustomListDelegate(QStyledItemDelegate):
@@ -222,6 +223,30 @@ class CustomListDelegate(QStyledItemDelegate):
 
 
 # =============================================================================
+class FileListWidget(QListView):
+    """ D&Dでファイルを追加するウィジェット
+    """
+
+    def __init__(self, parent=None):
+        QListView.__init__(self, parent)
+        data = [
+            {u"name": u"file1.wav"},
+            {u"name": u"file2.wav"}
+        ]
+        # モデルとデリゲートを生成
+        self.myListModel = CustomListModel(data=data)
+        self.myListDelegete = CustomListDelegate()
+        self.setModel(self.myListModel)
+        self.setItemDelegate(self.myListDelegete)
+
+    def clearItems(self):
+        self.myListModel.clearItems()
+
+    def addItem(self, data):
+        self.myListModel.addItem(data)
+
+
+# =============================================================================
 ## MasterOfMainWindow
 class MainWindow(QMainWindow):
     """ Our Main Window Class
@@ -250,18 +275,19 @@ class MainWindow(QMainWindow):
 
         # UIの生成
         # ====================================
-        data = [
-            {u"name": u"file1.wav"},
-            {u"name": u"file2.wav"}
-        ]
+        # data = [
+        #     {u"name": u"file1.wav"},
+        #     {u"name": u"file2.wav"}
+        # ]
         # モデルとデリゲートを生成
-        self.myListModel = CustomListModel(data=data)
-        self.myListDelegete = CustomListDelegate()
+        # self.myListModel = CustomListModel(data=data)
+        # self.myListDelegete = CustomListDelegate()
 
         # QListViewを使うためには下のコードを書くだけ
-        self.myListView = QListView()
-        self.myListView.setModel(self.myListModel)
-        self.myListView.setItemDelegate(self.myListDelegete)
+        # self.myListView = QListView()
+        self.myListView = FileListWidget()
+        # self.myListView.setModel(self.myListModel)
+        # self.myListView.setItemDelegate(self.myListDelegete)
 
         self.widget = QWidget()
         layout = QVBoxLayout(self.widget)
@@ -314,7 +340,8 @@ class MainWindow(QMainWindow):
         urls = [unicode(u.toLocalFile()) for u in event.mimeData().urls()]
 
         # リストを消去
-        self.myListModel.clearItems()
+        # self.myListModel.clearItems()
+        self.myListView.clearItem()
 
         import glob
 
@@ -331,7 +358,8 @@ class MainWindow(QMainWindow):
                 files = [r for r in glob.glob(searchpath)]
                 # ファイルリストから一つずつリストに追加
                 for file in files:
-                    self.myListModel.addItem({u"name": file})
+                    # self.myListModel.addItem({u"name": file})
+                    self.myListView.addItem({u"name": file})
             else:
                 # URLがファイルの場合、(.wav)だけをリストにつか
                 abspath = os.path.abspath(url)
@@ -339,7 +367,8 @@ class MainWindow(QMainWindow):
                 name, ext = os.path.splitext(abspath)
                 # .wavの場合だけ追加
                 if ext == '.wav':
-                    self.myListModel.addItem({u"name": abspath})
+                    # self.myListModel.addItem({u"name": abspath})
+                    self.myListView.addItem({u"name": abspath})
                 print 'This is not Dir :', abspath
 
     ##############################################
@@ -387,6 +416,7 @@ class MainWindow(QMainWindow):
 
 # =============================================================================
 ## DEMO
+
 if __name__ == '__main__':
     # Exception Handling
     try:
